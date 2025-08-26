@@ -13,7 +13,7 @@ Este projeto é uma visualização de um grafo ponderado e demonstra o funcionam
 
 -   **HTML/CSS:** Estrutura e estilo da página.
 -   **JavaScript**: Lógica da aplicação e implementação do algoritmo.
--   **[Vis.js](https://visjs.org/):**: Biblioteca para visualização de grafos.
+-   **[Vis.js](https://visjs.org/):** Biblioteca para visualização de grafos.
 
 ## Estrutura do Projeto
 
