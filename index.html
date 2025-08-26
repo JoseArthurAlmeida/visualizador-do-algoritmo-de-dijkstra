@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Visualização de Grafo e Caminhos de Dijkstra</title>
+
+		<link rel="stylesheet" href="css/style.css" />
+
+		<script
+			type="text/javascript"
+			src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+		></script>
+	</head>
+	<body>
+		<div id="controls">
+            <label for="origem-select"> Mostrar caminho mais curto de</label>
+			<select id="origem-select">
+				<option value="">-- Escolha o começo --</option>
+			</select>
+			<label for="destination-select">para</label>
+			<select id="destination-select">
+				<option value="">-- Escolha o destino --</option>
+			</select>
+		</div>
+
+		<div id="mynetwork"></div>
+
+		<script type="module" src="js/visualizacao.js"></script>
+	</body>
+</html>
